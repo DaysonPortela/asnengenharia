@@ -1,0 +1,10 @@
+/* Introducao */
+
+.bg-intro {
+  background: url(../img/bg-intro2.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.imoveis-recentes {
+  margin: 80px auto;
+}

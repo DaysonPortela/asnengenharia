@@ -1,0 +1,103 @@
+.bg-intro-servico {
+  margin-top: 150px;
+  background: url(../img/servicos.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.introducao-servicos h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Aside */
+
+.servicos-aside {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-laudos {
+  max-width: 680px;
+  border-left: solid 1px #ebebeb;
+}
+
+.img-laudos img,
+h1,
+h2,
+p,
+ul {
+  margin-left: 30px;
+}
+
+.img-laudos img {
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.img-laudos h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 2em;
+  color: #242526;
+}
+
+.img-laudos p {
+  color: #767676;
+  font-size: 1em;
+}
+
+.img-laudos h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 2em;
+  color: #242526;
+  margin-top: 20px;
+}
+
+.img-laudos ul {
+  list-style-type: disc;
+  margin-left: 70px;
+  line-height: 1.5em;
+  color: #767676;
+  margin-bottom: 30px;
+}
+
+.tipo-servicos h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 2em;
+  color: #242526;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.tipo-servicos a {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 12px;
+  padding: 7px;
+  color: #767676;
+  font-weight: bold;
+  transition: all 0.3s linear;
+}
+.tipo-servicos a:hover {
+  color: #ea3033;
+}
+
+.tipo-servicos a .active {
+  color: #ea3033;
+}
+
+.servicos-aside {
+  margin-bottom: 60px;
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="facebook" width="20" height="20" transform="translate(1010 3002)" fill="#ea3033"/>
+    </clipPath>
+  </defs>
+  <g id="facebook-2" data-name="facebook" transform="translate(-1607 89)">
+    <g id="Group_4" data-name="Group 4" transform="translate(-9)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(1616 -89)" fill="#f7f7f7"/>
+      <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(611 -3086)" clip-path="url(#clip-path)">
+        <path id="_001-facebook" data-name="001-facebook" d="M7.05,20h-3.2a.971.971,0,0,1-.97-.97V11.8H1.009a.971.971,0,0,1-.97-.97v-3.1a.971.971,0,0,1,.97-.97H2.878V5.217a5.278,5.278,0,0,1,1.4-3.781A5.027,5.027,0,0,1,7.98,0l2.442,0a.972.972,0,0,1,.969.97V3.847a.971.971,0,0,1-.97.97H8.776c-.5,0-.63.1-.656.132-.045.05-.1.2-.1.595V6.767H10.3a.986.986,0,0,1,.48.122.974.974,0,0,1,.5.85v3.1a.971.971,0,0,1-.97.97H8.019v7.222a.971.971,0,0,1-.969.97Zm-3-1.173h2.8V11.278a.65.65,0,0,1,.65-.65h2.607V7.937H7.5a.65.65,0,0,1-.65-.65V5.537a2,2,0,0,1,.392-1.37,1.987,1.987,0,0,1,1.535-.528h1.446V1.173l-2.24,0A3.7,3.7,0,0,0,4.051,5.216V7.291a.65.65,0,0,1-.65.65H1.211v2.69H3.4a.65.65,0,0,1,.65.65ZM10.419,1.173Zm0,0" transform="translate(1014.285 3002.003)" fill="#ea3033"/>
+      </g>
+    </g>
+  </g>
+</svg>

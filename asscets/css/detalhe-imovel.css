@@ -1,0 +1,149 @@
+/* Introducao */
+
+.bg-intro {
+  background: #dadbdc;
+  margin-top: 30px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.introducao {
+  padding-top: 8%;
+}
+
+/* Detalhe do imóvel */
+
+.detalhe-intro {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.intro-detalhe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imoveis-endereco {
+  margin: 0;
+}
+
+.venda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  margin: 0 0px 0 25px;
+  color: #000;
+}
+
+.venda a {
+  color: #000;
+  font-weight: bold;
+  background: rgba(158, 99, 255, 0.25);
+  padding: 10px 25px;
+  border-radius: 60px;
+}
+
+.venda p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.imoveis-especificacao {
+  max-width: 290px;
+  font-weight: bold;
+}
+
+.imoveis-endereco p:first-child {
+  font-size: 2em;
+}
+
+.imagem-detalhe {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.imagem-detalhe-apto {
+  margin-right: 60px;
+  border: solid 1px #dadbdc;
+}
+
+.img-fild {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-fild img {
+  flex: 1;
+  margin: 30px 15px;
+}
+
+.corretor h3 {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.corretor-img-contato {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.corretor-contato {
+  margin-left: 20px;
+}
+
+.corretor-contato p {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.corretor-contato p:nth-child(2n) {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #aeb4b6;
+  margin-bottom: 15px;
+}
+
+.corretor-contato h4 {
+  font-size: 1em;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-detalhe input {
+  display: block;
+  padding: 10px;
+  width: 115%;
+  margin-bottom: 15px;
+  border: solid 1px #dadbdc;
+  outline: none;
+}
+
+.form-detalhe textarea {
+  resize: none;
+  width: 115%;
+  height: 100px;
+  padding: 10px;
+  outline: none;
+  border: solid 1px #dadbdc;
+}
+
+.form-detalhe button {
+  display: block;
+  margin: 15px;
+  border: none;
+  width: 125%;
+  margin-left: 0px;
+  padding: 13px;
+  background: #ed125f;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+  cursor: pointer;
+}
