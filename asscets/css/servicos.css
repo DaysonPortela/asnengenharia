@@ -32,10 +32,10 @@
 }
 
 .img-laudos img,
-h1,
-h2,
-p,
-ul {
+.img-laudos h1,
+.img-laudos h2,
+.img-laudos p,
+.img-laudos ul {
   margin-left: 30px;
 }
 

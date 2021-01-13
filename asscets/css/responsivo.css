@@ -15,6 +15,9 @@
 
   /* home */
   /* menu */
+  .menu-logo img {
+    width: 300px;
+  }
   .menu {
     margin-top: 70px;
   }
@@ -59,6 +62,7 @@
   .servico-lista03 {
     max-width: 369px;
     margin-top: 25px;
+    margin-right: 25px;
   }
 
   /* Home Nossa Historia*/
@@ -215,12 +219,9 @@
     color: rgb(255, 255, 255);
     font-size: 2em;
     line-height: 1.5em;
+    margin-top: 50px;
   }
 
-  .introducao p {
-    margin-top: 10px;
-    font-size: 1.2em;
-  }
   .intro-button {
     margin: 40px auto 0 auto;
   }
