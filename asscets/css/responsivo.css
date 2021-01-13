@@ -125,6 +125,11 @@
     margin: 0 80px 0 auto;
   }
 
+  /* Home footer*/
+  .footer-menu {
+    margin-right: 5px;
+  }
+
   /* contato*/
 
   .form {
@@ -224,6 +229,12 @@
 
   .intro-button {
     margin: 40px auto 0 auto;
+  }
+
+  /* footer */
+
+  .footer-menu {
+    margin-right: 5px;
   }
 
   /* Serviços */
@@ -353,6 +364,6 @@
   /* footer*/
 
   .footer-menu {
-    margin: 50px 0;
+    margin: 50px 5px 50px 0px;
   }
 }

@@ -1,15 +1,213 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+footer,
+header,
+nav,
+section,
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  font-size: 1em;
+  font-weight: 400;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #222222;
+  color: #222;
 }
-
 img {
   display: block;
   max-width: 100%;
 }
-
-/* Home - Cabeçalho */
-
 .superinfo-bg {
   background-color: #464646;
   position: fixed;
@@ -17,7 +215,6 @@ img {
   width: 100%;
   z-index: 10;
 }
-
 .superinfo {
   max-width: 1170px;
   margin: 0 auto;
@@ -27,7 +224,6 @@ img {
   padding-top: 10px;
   padding-bottom: 5px;
 }
-
 .superinfo-contato {
   display: flex;
   flex-wrap: wrap;
@@ -37,41 +233,35 @@ img {
   margin-right: 26px;
   color: #fff;
   font-weight: 400;
-  padding: 0 10px 10px 0px;
+  padding: 0 10px 10px 0;
   font-size: 0.9em;
 }
 .superinfo-contato a img {
   display: inline;
   margin-right: 5px;
 }
-
 .superinfo-redesocial {
   display: flex;
   flex-wrap: wrap;
   align-self: center;
 }
-
 .superinfo-redesocial a {
-  padding: 0 8px 8px 8px;
+  padding: 0 8px 8px;
   margin-left: 12px;
 }
-
-/* MENU */
 .header {
   position: fixed;
   top: 0;
   background-color: #fff;
-  box-shadow: 0px 0px 5px rgb(194, 189, 189);
+  box-shadow: 0 0 5px #c2bdbd;
   width: 100%;
   z-index: 9;
 }
-
 .menu-bg {
   max-width: 1170px;
-  margin: 70px auto 0 auto;
+  margin: 70px auto 0;
   padding-bottom: 20px;
 }
-
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -79,31 +269,25 @@ img {
   margin-top: 30px;
   justify-content: space-between;
 }
-
 .menu nav ul {
   display: flex;
   flex-wrap: wrap;
 }
-
 .menu nav a {
   font-size: 1.1em;
   display: block;
   margin-left: 35px;
   padding: 7px;
   color: #636363;
-  font-weight: bold;
+  font-weight: 700;
   transition: all 0.3s linear;
 }
 .menu nav a:hover {
   color: #ea3033;
 }
-
 nav .active a {
   color: #ea3033;
 }
-
-/* Introducao */
-
 .bg-intro {
   margin-top: 30px;
   background: url(../img/bg-intro.jpg) no-repeat center;
@@ -111,34 +295,27 @@ nav .active a {
   width: 100%;
   height: 674px;
 }
-
 .introducao {
   max-width: 1170px;
-  margin: 80px auto 0 auto;
+  margin: 80px auto 0;
   text-align: center;
   padding-top: 15%;
 }
-
 .introducao h1 {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 3em;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.5em;
 }
-
 .intro-button {
-  margin: 80px auto 0 auto;
+  margin: 80px auto 0;
 }
-
 .intro-button a {
   background-color: #ea3033;
   border-radius: 5px;
   padding: 12px 40px;
   color: #fff;
 }
-
-/* SERVICOS */
-
 .home-servico {
   max-width: 1170px;
   margin: 0 auto;
@@ -149,7 +326,7 @@ nav .active a {
 .home-servico h2 {
   color: #242526;
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -159,15 +336,13 @@ nav .active a {
   width: 60px;
   height: 4px;
   background: #ea3033;
-  margin: 15px auto 0px;
+  margin: 15px auto 0;
 }
-
 .servico-lista {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
-
 .servico-lista01 {
   margin-right: 25px;
   border: solid 1px #e6e4e4;
@@ -178,11 +353,9 @@ nav .active a {
 .servico-lista01:hover {
   box-shadow: 1px 1px 10px #e6e4e4;
 }
-
 .servico-lista01 img {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0 0;
 }
-
 .servico-lista02 {
   margin-right: 25px;
   border: solid 1px #e6e4e4;
@@ -190,13 +363,11 @@ nav .active a {
   transition: all 0.3s linear;
   max-width: 370px;
 }
-
 .servico-lista02:hover {
   box-shadow: 1px 1px 10px #e6e4e4;
 }
-
 .servico-lista02 img {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0 0;
 }
 .servico-lista03 {
   border: solid 1px #e6e4e4;
@@ -204,40 +375,33 @@ nav .active a {
   transition: all 0.3s linear;
   max-width: 370px;
 }
-
 .servico-lista03:hover {
   box-shadow: 1px 1px 10px #e6e4e4;
 }
-
 .servico-lista03 img {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0 0;
 }
-
 .servico-lista04 {
   border: solid 1px #e6e4e4;
   border-radius: 5px;
   transition: all 0.3s linear;
   max-width: 370px;
-  margin: 25px auto 0 auto;
+  margin: 25px auto 0;
 }
-
 .servico-lista04:hover {
   box-shadow: 1px 1px 10px #e6e4e4;
 }
-
 .servico-lista04 img {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0 0;
 }
-
 .qualidade {
   display: flex;
   justify-content: space-between;
   position: relative;
   top: -45px;
-  margin: 0 25px 0 25px;
+  margin: 0 25px;
   color: #fff;
 }
-
 .qualidade a {
   display: block;
   color: #fff;
@@ -245,34 +409,28 @@ nav .active a {
   padding: 3px 20px;
   border-radius: 15px;
 }
-
 .qualidade p {
   font-size: 1.2em;
-  font-weight: bold;
+  font-weight: 700;
 }
-
 .imoveis-endereco {
-  margin: 0px 0px 0px 25px;
+  margin: 0 0 0 25px;
 }
-
 .imoveis-endereco p {
   color: #aeb4b6;
   font-size: 0.8em;
 }
-
 .imoveis-endereco p:first-child {
   color: #242526;
   font-size: 1.2em;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 5px;
 }
-
 .imoveis-especificacao {
   margin-top: 15px;
   margin-left: 7px;
   display: flex;
 }
-
 .imoveis-especificacao li {
   flex: 1;
   color: #161616;
@@ -280,11 +438,9 @@ nav .active a {
   padding-left: 20px;
   border-left: solid #e6e4e4 1px;
 }
-
 .imoveis-especificacao li:first-child {
   border: none;
 }
-
 .imoveis-favorito {
   display: flex;
   margin: 20px 25px;
@@ -292,18 +448,15 @@ nav .active a {
   align-items: center;
   border-top: solid 1px #e6e4e4;
 }
-
 .imoveis-favorito img,
 .imoveis-favorito p,
 .imoveis-favorito ul {
   margin-top: 20px;
 }
-
 .imoveis-favorito p {
   color: #767676;
   font-size: 1em;
 }
-
 .imoveis-favorito ul {
   font-size: 1em;
   list-style-type: disc;
@@ -311,25 +464,20 @@ nav .active a {
   line-height: 1.2em;
   color: #767676;
 }
-
 .home-servico .intro-button {
-  margin: 30px auto 0 auto;
+  margin: 30px auto 0;
 }
-
-/* Historia Empresa*/
-
 .empresa {
   margin-top: 130px;
   background-color: #fafafa;
   padding-bottom: 100px;
 }
-
 .empresa h2 {
   padding: 50px;
   text-align: center;
   color: #242526;
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 700;
 }
 .empresa h2::after {
   content: "";
@@ -337,7 +485,7 @@ nav .active a {
   width: 60px;
   height: 4px;
   background: #ea3033;
-  margin: 15px auto 0px;
+  margin: 15px auto 0;
 }
 .nossa-historia {
   max-width: 1170px;
@@ -346,43 +494,33 @@ nav .active a {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .nossa-historia .intro-button {
   margin-top: 30px;
 }
-
 .texto-historia {
   max-width: 575px;
 }
-
 .texto-historia p {
   line-height: 1.5em;
   font-size: 1.3em;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 20px;
-}
-
-.texto-historia p {
   font-size: 1em;
   line-height: 1.5em;
 }
-
 .imagem-historia img {
   border-radius: 3px;
 }
-/* CLIENTES SATISFEITOS */
-
 .clientes {
   margin-top: 60px;
   padding-bottom: 50px;
 }
-
 .clientes h2 {
   padding: 50px;
   text-align: center;
   color: #242526;
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 700;
 }
 .clientes h2::after {
   content: "";
@@ -390,63 +528,51 @@ nav .active a {
   width: 60px;
   height: 4px;
   background: #ea3033;
-  margin: 15px auto 0px;
+  margin: 15px auto 0;
 }
-
 .clientes-satisfeitos {
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
 }
-
 .avatar {
   max-width: 570px;
   margin: 15px;
 }
-
 .avatar-texto {
   border: solid 1px #aeb4b6;
-  padding: 41px 30px 30px 0px;
+  padding: 41px 30px 30px 0;
   display: flex;
   align-items: baseline;
 }
-
 .avatar-texto p {
   line-height: 1.5em;
-  font-size: 1en;
+  font-size: 1em;
 }
-
 .avatar-img {
   margin-top: 20px;
   margin-left: 50px;
   display: flex;
   align-items: center;
 }
-
 .avatar-img img {
   margin-right: 15px;
 }
-
 .avatar-img cite {
   font-style: italic;
   font-weight: lighter;
   font-size: 1em;
 }
-
 .separador {
   background-color: #dd3636;
 }
-
 .separador h3 {
   text-align: center;
   color: #fff;
   font-size: 1.5em;
-  font-weight: bold;
+  font-weight: 700;
   padding: 50px;
 }
-
-/*footer*/
-
 .footer {
   padding-top: 50px;
   max-width: 1170px;
@@ -456,42 +582,34 @@ nav .active a {
   justify-content: space-between;
   margin-bottom: 30px;
 }
-
 .footer-menu h4 {
-  font-weight: bold;
+  font-weight: 700;
 }
-
 .footer-menu ul {
   margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 0;
   line-height: 30px;
 }
-
-.footer-menu ul a {
+.footer-menu ul li a {
   color: #161616;
 }
-
-.footer-menu ul a:hover {
+.footer-menu ul li a:hover {
   color: #ea3033;
 }
-
 .footer-corretor {
   max-width: 470px;
 }
-
 .footer-corretor h4 {
   color: #161616;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 15px;
   font-size: 1.3em;
 }
-
 .footer-corretor p {
   font-size: 1em;
   line-height: 1.5em;
   color: #767676;
 }
-
 .corp {
   max-width: 1170px;
   margin: 0 auto;
@@ -499,23 +617,19 @@ nav .active a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 30px 0 20px 0;
+  padding: 30px 0 20px;
   border-top: solid 1px #e6e4e4;
 }
-
 .corp p {
   color: #aeb4b6;
   font-size: 0.8em;
 }
-
-/*javascript*/
-
 [data-slide] {
   position: relative;
 }
 [data-slide] > * {
   position: absolute;
-  top: 0px;
+  top: 0;
   opacity: 0;
 }
 [data-slide] > .active {
@@ -524,8 +638,6 @@ nav .active a {
   transition: opacity 500ms;
   z-index: 1;
 }
-
-/* Slide 6 CSS recomendado para a navegação  */
 .js [data-slide-nav] {
   display: block;
   justify-content: center;
@@ -538,7 +650,7 @@ nav .active a {
   margin: 4px;
   height: 12px;
   border: none;
-  padding: 0px;
+  padding: 0;
   border-radius: 6px;
   background: #464646;
   text-indent: -100px;
@@ -548,8 +660,6 @@ nav .active a {
 .js [data-slide-nav] > button.active {
   background: #ea3033;
 }
-
-/* Anime CSS personalizado dependendo da animação desejada */
 .js .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
@@ -562,8 +672,6 @@ nav .active a {
 .js .fadeInLeft {
   transform: translate3d(-20px, 0, 0);
 }
-
-/* Anime  Adicione o CSS Essêncial abaixo */
 .js [data-anime] {
   opacity: 0;
 }
@@ -571,4 +679,477 @@ nav .active a {
   opacity: 1;
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
+}
+.bg-intro-servico {
+  margin-top: 150px;
+  background: url(../img/servicos.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+.introducao-servicos h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.5em;
+  text-align: center;
+  padding-top: 50px;
+}
+.servicos-aside {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img-laudos {
+  max-width: 680px;
+  border-left: solid 1px #ebebeb;
+}
+.img-laudos img,
+.img-laudos h1,
+.img-laudos h2,
+.img-laudos p,
+.img-laudos ul {
+  margin-left: 30px;
+}
+.img-laudos img {
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.img-laudos h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 2em;
+  color: #242526;
+}
+.img-laudos p {
+  color: #767676;
+  font-size: 1em;
+}
+.img-laudos h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 2em;
+  color: #242526;
+  margin-top: 20px;
+}
+.img-laudos ul {
+  list-style-type: disc;
+  margin-left: 70px;
+  line-height: 1.5em;
+  color: #767676;
+  margin-bottom: 30px;
+}
+.tipo-servicos h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 2em;
+  color: #242526;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.tipo-servicos a {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 12px;
+  padding: 7px;
+  color: #767676;
+  font-weight: 700;
+  transition: all 0.3s linear;
+}
+.tipo-servicos a:hover {
+  color: #ea3033;
+}
+.tipo-servicos .active {
+  color: #ea3033;
+}
+.servicos-aside {
+  margin-bottom: 60px;
+}
+.bg-intro-contato {
+  margin-top: 150px;
+  background: url(../img/contato.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+.introducao-servicos h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.5em;
+  text-align: center;
+  padding-top: 50px;
+}
+.contato {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form {
+  padding-right: 60px;
+}
+.form label {
+  display: block;
+  color: #464646;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+.form input {
+  display: block;
+  width: 500px;
+  border: 2px solid #ea3033;
+  background: none;
+  color: #464646;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form .nao-aparece {
+  display: none;
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+}
+.form textarea {
+  display: block;
+  width: 600px;
+  height: 100px;
+  border: 2px solid #ea3033;
+  background: none;
+  color: #000;
+  padding: 7px 10px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form .btn {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #ea3033;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.contato-enderecos {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.contato_dados h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ea3033;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.contato_dados span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #464646;
+}
+.contato_dados ul {
+  margin-top: 10px;
+}
+.contato_dados ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.contato_redes {
+  margin-top: 20px;
+}
+.mapa-endereco {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1169px) {
+  .superinfo,
+  .menu-bg,
+  .introducao,
+  .home-servico,
+  .nossa-historia,
+  .clientes-satisfeitos,
+  .footer,
+  .corp,
+  .servicos-aside,
+  .contato {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .menu-logo img {
+    width: 300px;
+  }
+  .menu {
+    margin-top: 70px;
+  }
+  .introducao {
+    margin: 90px auto 0;
+    text-align: center;
+    padding: 15%;
+  }
+  .introducao h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.5em;
+  }
+  .intro-button {
+    margin: 50px auto 0;
+  }
+  .home-servico h2 {
+    margin-top: 40px;
+  }
+  .servico-lista01 {
+    margin-right: 25px;
+    max-width: 369px;
+  }
+  .servico-lista02 {
+    margin-right: 0;
+    max-width: 369px;
+  }
+  .servico-lista03 {
+    max-width: 369px;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+  .empresa {
+    margin-top: 60px;
+  }
+  .nossa-historia {
+    margin: 0 auto;
+    flex-direction: column-reverse;
+  }
+  .imagem-historia img {
+    border-radius: 3px;
+    margin: 0 auto;
+  }
+  .texto-historia {
+    margin: 0 auto;
+  }
+  .texto-historia p {
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nossa-historia .intro-button {
+    margin: 40px auto 0;
+    text-align: center;
+  }
+  .clientes {
+    margin-top: 0;
+    padding-bottom: 50px;
+  }
+  .clientes h2 {
+    padding: 30px 0;
+  }
+  .clientes-satisfeitos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .avatar {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .avatar-img {
+    margin: 0 80px 0 auto;
+  }
+  .footer-menu {
+    margin-right: 5px;
+  }
+  .form {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 787px) {
+  .superinfo,
+  .menu-bg,
+  .introducao,
+  .home-servico,
+  .nossa-historia,
+  .clientes-satisfeitos,
+  .footer,
+  .corp,
+  .servicos-aside,
+  .contato {
+    max-width: 300px;
+  }
+  .whatsapp-api img {
+    width: 55px;
+  }
+  .superinfo-bg {
+    display: none;
+  }
+  .header {
+    position: relative;
+  }
+  .menu-bg {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .menu {
+    margin-top: 0;
+    text-align: center;
+  }
+  .menu-logo {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .menu nav ul {
+    display: flex;
+  }
+  .menu nav ul li {
+    margin: 5px;
+  }
+  .menu nav a {
+    border: 4px solid #636363;
+    width: 132px;
+    display: block;
+    padding: 7px 0;
+    margin-left: 0;
+    display: block;
+    float: left;
+  }
+  .menu nav a:hover {
+    border-color: #ea3033;
+  }
+  nav .active a {
+    border-color: #ea3033;
+  }
+  .bg-intro {
+    margin-top: 0;
+    background: url(../img/bg-intro-mobile.jpg) no-repeat center;
+    background-size: cover;
+    height: 380px;
+  }
+  .introducao {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .introducao h1 {
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: 50px;
+  }
+  .intro-button {
+    margin: 40px auto 0;
+  }
+  .footer-menu {
+    margin-right: 5px;
+  }
+  .home-servico {
+    margin-top: 50px;
+  }
+  .servico-lista01 {
+    margin-right: 0;
+    max-width: 300px;
+    margin-bottom: 25px;
+  }
+  .servico-lista02 {
+    margin-right: 0;
+    max-width: 300px;
+    margin-bottom: 25px;
+  }
+  .servico-lista03 {
+    max-width: 300px;
+  }
+  .empresa {
+    margin-top: 50px;
+    background-color: #fafafa;
+    padding-bottom: 60px;
+  }
+  .empresa h2 {
+    padding: 50px 0 20px;
+    text-align: center;
+    color: #242526;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .nossa-historia {
+    margin: 0 auto;
+    flex-direction: column-reverse;
+  }
+  .imagem-historia img {
+    border-radius: 3px;
+    margin: 0 auto;
+  }
+  .texto-historia {
+    margin: 0 auto;
+  }
+  .texto-historia p {
+    line-height: 1.2em;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nossa-historia .intro-button {
+    margin: 40px auto 0;
+    text-align: center;
+  }
+  .clientes {
+    margin-top: 0;
+    padding-bottom: 50px;
+  }
+  .clientes h2 {
+    padding: 30px 0;
+  }
+  .clientes-satisfeitos {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .avatar {
+    margin-bottom: 50px;
+  }
+  .bg-intro-servico {
+    margin-top: 0;
+    background: url(../img/servicos.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+  }
+  .img-laudos img,
+  h1,
+  h2,
+  p,
+  ul {
+    margin-left: 0;
+  }
+  .bg-intro-contato {
+    margin-top: 0;
+  }
+  .form {
+    margin-bottom: 40px;
+  }
+  .form input {
+    width: 300px;
+  }
+  .form textarea {
+    width: 300px;
+  }
+  .footer-menu {
+    margin: 50px 5px 50px 0;
+  }
 }

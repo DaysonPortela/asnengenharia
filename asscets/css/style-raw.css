@@ -1,0 +1,574 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Home - Cabeçalho */
+
+.superinfo-bg {
+  background-color: #464646;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.superinfo {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.superinfo-contato {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+.superinfo-contato a {
+  margin-right: 26px;
+  color: #fff;
+  font-weight: 400;
+  padding: 0 10px 10px 0px;
+  font-size: 0.9em;
+}
+.superinfo-contato a img {
+  display: inline;
+  margin-right: 5px;
+}
+
+.superinfo-redesocial {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+.superinfo-redesocial a {
+  padding: 0 8px 8px 8px;
+  margin-left: 12px;
+}
+
+/* MENU */
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgb(194, 189, 189);
+  width: 100%;
+  z-index: 9;
+}
+
+.menu-bg {
+  max-width: 1170px;
+  margin: 70px auto 0 auto;
+  padding-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.menu nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu nav a {
+  font-size: 1.1em;
+  display: block;
+  margin-left: 35px;
+  padding: 7px;
+  color: #636363;
+  font-weight: bold;
+  transition: all 0.3s linear;
+}
+.menu nav a:hover {
+  color: #ea3033;
+}
+
+nav .active a {
+  color: #ea3033;
+}
+
+/* Introducao */
+
+.bg-intro {
+  margin-top: 30px;
+  background: url(../img/bg-intro.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 674px;
+}
+
+.introducao {
+  max-width: 1170px;
+  margin: 80px auto 0 auto;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.introducao h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.intro-button {
+  margin: 80px auto 0 auto;
+}
+
+.intro-button a {
+  background-color: #ea3033;
+  border-radius: 5px;
+  padding: 12px 40px;
+  color: #fff;
+}
+
+/* SERVICOS */
+
+.home-servico {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-servico h2 {
+  color: #242526;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.home-servico h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ea3033;
+  margin: 15px auto 0px;
+}
+
+.servico-lista {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.servico-lista01 {
+  margin-right: 25px;
+  border: solid 1px #e6e4e4;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+  max-width: 370px;
+}
+.servico-lista01:hover {
+  box-shadow: 1px 1px 10px #e6e4e4;
+}
+
+.servico-lista01 img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.servico-lista02 {
+  margin-right: 25px;
+  border: solid 1px #e6e4e4;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+  max-width: 370px;
+}
+
+.servico-lista02:hover {
+  box-shadow: 1px 1px 10px #e6e4e4;
+}
+
+.servico-lista02 img {
+  border-radius: 5px 5px 0px 0px;
+}
+.servico-lista03 {
+  border: solid 1px #e6e4e4;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+  max-width: 370px;
+}
+
+.servico-lista03:hover {
+  box-shadow: 1px 1px 10px #e6e4e4;
+}
+
+.servico-lista03 img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.servico-lista04 {
+  border: solid 1px #e6e4e4;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+  max-width: 370px;
+  margin: 25px auto 0 auto;
+}
+
+.servico-lista04:hover {
+  box-shadow: 1px 1px 10px #e6e4e4;
+}
+
+.servico-lista04 img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.qualidade {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -45px;
+  margin: 0 25px 0 25px;
+  color: #fff;
+}
+
+.qualidade a {
+  display: block;
+  color: #fff;
+  background: rgba(234, 48, 51, 0.25);
+  padding: 3px 20px;
+  border-radius: 15px;
+}
+
+.qualidade p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.imoveis-endereco {
+  margin: 0px 0px 0px 25px;
+}
+
+.imoveis-endereco p {
+  color: #aeb4b6;
+  font-size: 0.8em;
+}
+
+.imoveis-endereco p:first-child {
+  color: #242526;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.imoveis-especificacao {
+  margin-top: 15px;
+  margin-left: 7px;
+  display: flex;
+}
+
+.imoveis-especificacao li {
+  flex: 1;
+  color: #161616;
+  font-size: 0.8em;
+  padding-left: 20px;
+  border-left: solid #e6e4e4 1px;
+}
+
+.imoveis-especificacao li:first-child {
+  border: none;
+}
+
+.imoveis-favorito {
+  display: flex;
+  margin: 20px 25px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px #e6e4e4;
+}
+
+.imoveis-favorito img,
+.imoveis-favorito p,
+.imoveis-favorito ul {
+  margin-top: 20px;
+}
+
+.imoveis-favorito p {
+  color: #767676;
+  font-size: 1em;
+}
+
+.imoveis-favorito ul {
+  font-size: 1em;
+  list-style-type: disc;
+  margin: 20px 25px;
+  line-height: 1.2em;
+  color: #767676;
+}
+
+.home-servico .intro-button {
+  margin: 30px auto 0 auto;
+}
+
+/* Historia Empresa*/
+
+.empresa {
+  margin-top: 130px;
+  background-color: #fafafa;
+  padding-bottom: 100px;
+}
+
+.empresa h2 {
+  padding: 50px;
+  text-align: center;
+  color: #242526;
+  font-size: 2em;
+  font-weight: bold;
+}
+.empresa h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ea3033;
+  margin: 15px auto 0px;
+}
+.nossa-historia {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nossa-historia .intro-button {
+  margin-top: 30px;
+}
+
+.texto-historia {
+  max-width: 575px;
+}
+
+.texto-historia p {
+  line-height: 1.5em;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.texto-historia p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.imagem-historia img {
+  border-radius: 3px;
+}
+/* CLIENTES SATISFEITOS */
+
+.clientes {
+  margin-top: 60px;
+  padding-bottom: 50px;
+}
+
+.clientes h2 {
+  padding: 50px;
+  text-align: center;
+  color: #242526;
+  font-size: 2em;
+  font-weight: bold;
+}
+.clientes h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ea3033;
+  margin: 15px auto 0px;
+}
+
+.clientes-satisfeitos {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.avatar {
+  max-width: 570px;
+  margin: 15px;
+}
+
+.avatar-texto {
+  border: solid 1px #aeb4b6;
+  padding: 41px 30px 30px 0px;
+  display: flex;
+  align-items: baseline;
+}
+
+.avatar-texto p {
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+.avatar-img {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar-img img {
+  margin-right: 15px;
+}
+
+.avatar-img cite {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.separador {
+  background-color: #dd3636;
+}
+
+.separador h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 50px;
+}
+
+/*footer*/
+
+.footer {
+  padding-top: 50px;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-menu h4 {
+  font-weight: bold;
+}
+
+.footer-menu ul {
+  margin-top: 10px;
+  margin-left: 0px;
+  line-height: 30px;
+}
+
+.footer-menu ul li a {
+  color: #161616;
+}
+
+.footer-menu ul li a:hover {
+  color: #ea3033;
+}
+
+.footer-corretor {
+  max-width: 470px;
+}
+
+.footer-corretor h4 {
+  color: #161616;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.footer-corretor p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #767676;
+}
+
+.corp {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 0 20px 0;
+  border-top: solid 1px #e6e4e4;
+}
+
+.corp p {
+  color: #aeb4b6;
+  font-size: 0.8em;
+}
+
+/*javascript*/
+
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+/* Slide 6 CSS recomendado para a navegação  */
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #464646;
+  text-indent: -100px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.js [data-slide-nav] > button.active {
+  background: #ea3033;
+}
+
+/* Anime CSS personalizado dependendo da animação desejada */
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+/* Anime  Adicione o CSS Essêncial abaixo */
+.js [data-anime] {
+  opacity: 0;
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
